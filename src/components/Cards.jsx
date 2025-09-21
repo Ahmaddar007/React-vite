@@ -19,7 +19,7 @@ function Cards() {
         <div className="flex justify-center items-center relative w-1/2 h-full bg-[#192826] rounded-xl">
           <img
             className="w-32"
-            src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
+            src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"
             alt=""
           />
           <button className="absolute left-10 bottom-10 px-3 py-1 border-2 rounded-full">
