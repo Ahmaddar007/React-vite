@@ -16,6 +16,7 @@
     "gsap": "^3.13.0",
     "locomotive-scroll": "^5.0.0-beta.21",
     "lucide": "^0.544.0",
+    "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.13"

@@ -48,11 +48,6 @@ function Landing() {
           <div className="px-5 py-2 text-lg border-[1px] border-zinc-600 capitalize rounded-full">
             start the project
           </div>
-          <div className="flex justify-center item-center w-10 h-10 rounded-full border-[1px] border-zinc-600">
-            <span className="rotate-[-45deg]">
-              <p className="mt-1">Go</p>
-            </span>
-          </div>
         </div>
       </div>
     </div>

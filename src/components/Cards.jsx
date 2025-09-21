@@ -23,7 +23,7 @@ function Cards() {
             alt=""
           />
           <button className="absolute left-10 bottom-10 px-3 py-1 border-2 rounded-full">
-            &copy;2019-2023
+            &copy;Rating 5.0 on Clutch
           </button>
         </div>
         <div className="flex justify-center items-center relative w-1/2 h-full bg-black/90 rounded-xl">
