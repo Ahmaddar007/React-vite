@@ -25,7 +25,7 @@ function Landing() {
                       delay: 0.5,
                       ease: "easeInOut",
                     }}
-                    className="w-[12vw] xs:w-[10vw] sm:w-[8vw] md:w-[7vw] lg:w-[6vw] h-[8vw] xs:h-[3.5vw] sm:h-[3vw] md:h-[2.5vw] relative rounded-md top-[2vw] xs:top-[1.5vw] sm:top-[1.2vw] md:top-[1vw] bg-red-500 mb-4 xs:mb-5 sm:mb-6"
+                    className="w-[12vw] xs:w-[10vw] sm:w-[8vw] md:w-[7vw] lg:w-[6vw] h-[8vw] xs:h-[5vw] sm:h-[5vw] md:h-[5vw] relative rounded-md top-[2vw] xs:top-[1.5vw] sm:top-[1.2vw] md:top-[1vw] bg-red-500 mb-4 xs:mb-5 sm:mb-6"
                   ></motion.div>
                 )}
                 <h1

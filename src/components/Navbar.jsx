@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <nav className="fixed z-[999] w-full px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-5 bg-zinc-900 border-b border-gray-100 flex justify-between items-center overflow-x-hidden">
+      <nav className="fixed z-[999] w-full px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-5 bg-transparent  flex justify-between items-center overflow-x-hidden">
         {/* Logo */}
         <div className="logo z-50">
           <svg
