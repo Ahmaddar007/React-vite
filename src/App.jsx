@@ -10,10 +10,18 @@ import Footer from "./components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
-  const locomotiveScroll = new LocomotiveScroll();
+  const locomotiveScroll = new LocomotiveScroll({
+    el: document.querySelector("[data-scroll-container]"),
+    smooth: true,
+    smartphone: { smooth: true },
+    tablet: { smooth: true },
+  });
 
   return (
-    <div className="w-full bg-zinc-900  text-white">
+    <div
+      data-scroll-container
+      className="w-full min-h-screen bg-zinc-900 text-white overflow-x-hidden"
+    >
       <Navbar />
       <Landing />
       <Marquee />

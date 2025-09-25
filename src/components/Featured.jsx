@@ -18,19 +18,26 @@ function Featured() {
 
   return (
     <div className="w-full py-10 bg-zinc-900">
-      <div className="w-full px-20 border-b border-zinc-700 pb-20">
-        <h1 className="text-7xl tracking-tight">Featured Projects</h1>
+      {/* Title */}
+      <div className="w-full px-5 md:px-10 lg:px-20 border-b border-zinc-700 pb-10 md:pb-20">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl tracking-tight">
+          Featured Projects
+        </h1>
       </div>
 
-      <div className="px-20">
-        <div className="cards w-full flex gap-10 mt-10">
+      <div className="px-5 md:px-10 lg:px-20">
+        <div className="cards w-full flex flex-col lg:flex-row gap-6 lg:gap-10 mt-8">
           {/* Card 1 */}
           <motion.div
             whileHover="hover"
             initial="initial"
-            className="w-1/2 h-[75vh] relative group"
+            className="w-full lg:w-1/2 h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[75vh] relative group"
           >
-            <h1 className="absolute flex overflow-hidden z-[9] text-teal-950 -translate-x-1/2 -translate-y-1/2 top-1/2 text-8xl tracking-tight left-full">
+            <h1
+              className="absolute flex overflow-hidden z-[9] text-teal-950 
+              text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight 
+              -translate-x-1/2 -translate-y-1/2 top-1/2 left-full"
+            >
               {"FYDE".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -47,7 +54,7 @@ function Featured() {
               <img
                 className="w-full h-full object-cover"
                 src="https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-663x551.jpg"
-                alt=""
+                alt="FYDE Project"
               />
             </div>
           </motion.div>
@@ -56,9 +63,13 @@ function Featured() {
           <motion.div
             whileHover="hover"
             initial="initial"
-            className="w-1/2 h-[75vh] relative group"
+            className="w-full lg:w-1/2 h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[75vh] relative group"
           >
-            <h1 className="absolute flex overflow-hidden z-[9] text-teal-950 translate-x-1/2 -translate-y-1/2 top-1/2 text-8xl tracking-tight right-full">
+            <h1
+              className="absolute flex overflow-hidden z-[9] text-teal-950 
+              text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight 
+              translate-x-1/2 -translate-y-1/2 top-1/2 right-full"
+            >
               {"VISE".split("").map((item, index) => (
                 <motion.span
                   key={index}
@@ -75,7 +86,7 @@ function Featured() {
               <img
                 className="w-full h-full object-cover"
                 src="https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-663x551.png"
-                alt=""
+                alt="VISE Project"
               />
             </div>
           </motion.div>
