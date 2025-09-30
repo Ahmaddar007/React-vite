@@ -28,7 +28,7 @@ function Marquee() {
             text-white/80
           "
         >
-          • Design • Innovation • Excellence • Creativity •
+          • Design • Innovation • Excellence • Creativity • • Imagination •
         </motion.h1>
       </div>
     </div>
