@@ -10,7 +10,7 @@ function Marquee() {
       className="w-full py-6 sm:py-8 md:py-12 bg-[#004D43] overflow-x-hidden"
     >
       {/* Marquee for all screens */}
-      <div className="border-t-2 border-b-2 border-zinc-300/60 flex whitespace-nowrap overflow-hidden">
+      <div className="border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden">
         <motion.h1
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
