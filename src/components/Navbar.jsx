@@ -62,7 +62,7 @@ function Navbar() {
         <div className="md:hidden z-50">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2 rounded-lg border border-gray-300 bg-white/80 backdrop-blur-sm transition-all duration-300 hover:border-gray-400 active:scale-95"
+            className="p-2 rounded-lg border border-gray-300 bg-zinc-400 backdrop-blur-sm transition-all duration-300 hover:border-gray-400 active:scale-95"
           >
             <div className="relative w-6 h-5 flex flex-col justify-between">
               <span
