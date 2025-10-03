@@ -8,7 +8,7 @@ function Landing() {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
-      className="w-full min-h-screen bg-zinc-900 pt-16 sm:pt-20 md:pt-24"
+      className="w-full min-h-screen pt-16 sm:pt-20 md:pt-24"
     >
       {/* Text Structure */}
       <div className="textstructure mt-8 xs:mt-12 sm:mt-16 md:mt-20 lg:mt-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
@@ -55,7 +55,7 @@ function Landing() {
               className="
                 text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl 
                 tracking-tight leading-tight xs:leading-snug sm:leading-snug 
-                font-light text-zinc-300 max-w-2xl
+                font-light text-black max-w-2xl
               "
             >
               {item}

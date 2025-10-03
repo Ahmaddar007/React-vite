@@ -20,7 +20,7 @@ function App() {
   return (
     <div
       data-scroll-container
-      className="w-full min-h-screen bg-zinc-900 text-white overflow-x-hidden"
+      className="w-full min-h-screen text-black overflow-x-hidden"
     >
       <Navbar />
       <Landing />
