@@ -17,7 +17,7 @@ function Featured() {
   };
 
   return (
-    <div className="w-full py-10 bg-zinc-900">
+    <div className="w-full py-10">
       {/* Title */}
       <div className="w-full px-5 md:px-10 lg:px-20 border-b border-zinc-700 pb-10 md:pb-20">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl tracking-tight">
