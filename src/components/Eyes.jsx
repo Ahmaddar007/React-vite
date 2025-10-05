@@ -62,7 +62,7 @@ function Eyes() {
         className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]"
       >
         {/* Background Overlay */}
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0"></div>
 
         {/* Eyes Container */}
         <div className="absolute flex flex-row gap-4 sm:gap-6 md:gap-8 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[90%] justify-center items-center px-4">

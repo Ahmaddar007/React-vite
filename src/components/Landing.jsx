@@ -69,7 +69,7 @@ function Landing() {
             px-4 xs:px-5 sm:px-6 py-2 xs:py-2.5 sm:py-3 
             text-xs xs:text-sm sm:text-base md:text-lg 
             border border-zinc-600 capitalize rounded-full 
-            hover:bg-zinc-800 transition-all duration-300 
+            hover:bg-teal-800 transition-all duration-300 
             hover:border-zinc-400 active:scale-95
             whitespace-nowrap
           "
@@ -79,7 +79,7 @@ function Landing() {
           <motion.div
             whileHover={{ x: 5 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="hidden sm:flex items-center justify-center w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 rounded-full border border-zinc-600 hover:bg-zinc-800 transition-all duration-300"
+            className="hidden sm:flex items-center justify-center w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 rounded-full border border-zinc-600 hover:bg-teal-800 transition-all duration-300"
           >
             <ArrowRight className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6" />
           </motion.div>
